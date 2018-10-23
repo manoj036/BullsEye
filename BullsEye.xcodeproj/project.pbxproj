@@ -12,6 +12,9 @@
 		912059332179AE8E0051E480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912059312179AE8E0051E480 /* Main.storyboard */; };
 		912059352179AE8F0051E480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912059342179AE8F0051E480 /* Assets.xcassets */; };
 		912059382179AE8F0051E480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912059362179AE8F0051E480 /* LaunchScreen.storyboard */; };
+		91C15E8E217D8C7B00FB715E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C15E8D217D8C7B00FB715E /* AboutViewController.swift */; };
+		91C15E90217D8EB500FB715E /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C15E8F217D8EB500FB715E /* AuthorViewController.swift */; };
+		91C15E92217DA13400FB715E /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 91C15E91217DA13400FB715E /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		912059342179AE8F0051E480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		912059372179AE8F0051E480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		912059392179AE8F0051E480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C15E8D217D8C7B00FB715E /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		91C15E8F217D8EB500FB715E /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
+		91C15E91217DA13400FB715E /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				9120592D2179AE8E0051E480 /* AppDelegate.swift */,
 				9120592F2179AE8E0051E480 /* ViewController.swift */,
+				91C15E8D217D8C7B00FB715E /* AboutViewController.swift */,
 				912059312179AE8E0051E480 /* Main.storyboard */,
 				912059342179AE8F0051E480 /* Assets.xcassets */,
 				912059362179AE8F0051E480 /* LaunchScreen.storyboard */,
 				912059392179AE8F0051E480 /* Info.plist */,
+				91C15E8F217D8EB500FB715E /* AuthorViewController.swift */,
+				91C15E91217DA13400FB715E /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				912059382179AE8F0051E480 /* LaunchScreen.storyboard in Resources */,
+				91C15E92217DA13400FB715E /* BullsEye.html in Resources */,
 				912059352179AE8F0051E480 /* Assets.xcassets in Resources */,
 				912059332179AE8E0051E480 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C15E8E217D8C7B00FB715E /* AboutViewController.swift in Sources */,
 				912059302179AE8E0051E480 /* ViewController.swift in Sources */,
 				9120592E2179AE8E0051E480 /* AppDelegate.swift in Sources */,
+				91C15E90217D8EB500FB715E /* AuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +295,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6RP9363VN;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +314,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6RP9363VN;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
